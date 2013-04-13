@@ -1,0 +1,52 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator 13.3                   C:/Xilinx/13.3/ISE_DS/ISE/sysgen
+Matlab 7.12.0.635 (R2011a)              C:/MATLAB/R2011a
+ISE                                     C:/Xilinx/13.3/ISE_DS/ISE
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: Undriven input port
+     Block: 'pfb_fir_16k_4tap_core_v2/pfb_fir/pipeline33/Register0'
+Error 0002: Undriven input port
+     Block: 'pfb_fir_16k_4tap_core_v2/pfb_fir/pipeline34/Register0'
+Error 0003: Undriven input port
+     Block: 'pfb_fir_16k_4tap_core_v2/pfb_fir/pipeline35/Register0'
+Error 0004: Undriven input port
+     Block: 'pfb_fir_16k_4tap_core_v2/pfb_fir/pipeline36/Register0'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'pfb_fir_16k_4tap_core_v2/pfb_fir/pipeline33/Register0'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'pfb_fir_16k_4tap_core_v2/pfb_fir/pipeline34/Register0'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'pfb_fir_16k_4tap_core_v2/pfb_fir/pipeline35/Register0'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'pfb_fir_16k_4tap_core_v2/pfb_fir/pipeline36/Register0'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------

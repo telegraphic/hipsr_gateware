@@ -1,0 +1,1395 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator 11.4.2254              /tools/Xilinx/11.1/DSP_Tools/lin64/sysgen
+AccelDSP 11.4.2254                      /tools/Xilinx/11.1/DSP_Tools/lin64/AccelDSP
+Matlab 7.9.0.529 (R2009b)               /tools/matlab2009b
+ISE 11.4.i                              /tools/Xilinx/11.1/ISE
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/sync_delay'
+Error 0002: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/cadd/realign_a_im'
+Error 0003: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/cadd/realign_a_re'
+Error 0004: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/cadd/realign_b_im'
+Error 0005: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/cadd/realign_b_re'
+Error 0006: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/csub/realign_a_im'
+Error 0007: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/csub/realign_a_re'
+Error 0008: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/csub/realign_b_im'
+Error 0009: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/csub/realign_b_re'
+Error 0010: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/sync_delay'
+Error 0011: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/cadd/realign_a_im'
+Error 0012: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/cadd/realign_a_re'
+Error 0013: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/cadd/realign_b_im'
+Error 0014: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/cadd/realign_b_re'
+Error 0015: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/csub/realign_a_im'
+Error 0016: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/csub/realign_a_re'
+Error 0017: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/csub/realign_b_im'
+Error 0018: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/csub/realign_b_re'
+Error 0019: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/sync_delay'
+Error 0020: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/cadd/realign_a_im'
+Error 0021: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/cadd/realign_a_re'
+Error 0022: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/cadd/realign_b_im'
+Error 0023: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/cadd/realign_b_re'
+Error 0024: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/csub/realign_a_im'
+Error 0025: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/csub/realign_a_re'
+Error 0026: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/csub/realign_b_im'
+Error 0027: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/csub/realign_b_re'
+Error 0028: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/sync_delay'
+Error 0029: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/cadd/realign_a_im'
+Error 0030: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/cadd/realign_a_re'
+Error 0031: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/cadd/realign_b_im'
+Error 0032: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/cadd/realign_b_re'
+Error 0033: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/csub/realign_a_im'
+Error 0034: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/csub/realign_a_re'
+Error 0035: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/csub/realign_b_im'
+Error 0036: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/csub/realign_b_re'
+Error 0037: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/sync_delay'
+Error 0038: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/cadd/realign_a_im'
+Error 0039: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/cadd/realign_a_re'
+Error 0040: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/cadd/realign_b_im'
+Error 0041: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/cadd/realign_b_re'
+Error 0042: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/csub/realign_a_im'
+Error 0043: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/csub/realign_a_re'
+Error 0044: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/csub/realign_b_im'
+Error 0045: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/csub/realign_b_re'
+Error 0046: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/sync_delay'
+Error 0047: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/cadd/realign_a_im'
+Error 0048: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/cadd/realign_a_re'
+Error 0049: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/cadd/realign_b_im'
+Error 0050: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/cadd/realign_b_re'
+Error 0051: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/csub/realign_a_im'
+Error 0052: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/csub/realign_a_re'
+Error 0053: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/csub/realign_b_im'
+Error 0054: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/csub/realign_b_re'
+Error 0055: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/sync_delay'
+Error 0056: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/cadd/realign_a_im'
+Error 0057: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/cadd/realign_a_re'
+Error 0058: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/cadd/realign_b_im'
+Error 0059: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/cadd/realign_b_re'
+Error 0060: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/csub/realign_a_im'
+Error 0061: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/csub/realign_a_re'
+Error 0062: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/csub/realign_b_im'
+Error 0063: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/csub/realign_b_re'
+Error 0064: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/sync_delay'
+Error 0065: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/cadd/realign_a_im'
+Error 0066: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/cadd/realign_a_re'
+Error 0067: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/cadd/realign_b_im'
+Error 0068: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/cadd/realign_b_re'
+Error 0069: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/csub/realign_a_im'
+Error 0070: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/csub/realign_a_re'
+Error 0071: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/csub/realign_b_im'
+Error 0072: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/csub/realign_b_re'
+Error 0073: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/sync_delay'
+Error 0074: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/cadd/realign_a_im'
+Error 0075: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/cadd/realign_a_re'
+Error 0076: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/cadd/realign_b_im'
+Error 0077: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/cadd/realign_b_re'
+Error 0078: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/csub/realign_a_im'
+Error 0079: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/csub/realign_a_re'
+Error 0080: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/csub/realign_b_im'
+Error 0081: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/csub/realign_b_re'
+Error 0082: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/sync_delay'
+Error 0083: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/cadd/realign_a_im'
+Error 0084: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/cadd/realign_a_re'
+Error 0085: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/cadd/realign_b_im'
+Error 0086: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/cadd/realign_b_re'
+Error 0087: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/csub/realign_a_im'
+Error 0088: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/csub/realign_a_re'
+Error 0089: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/csub/realign_b_im'
+Error 0090: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/csub/realign_b_re'
+Error 0091: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/sync_delay'
+Error 0092: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/cadd/realign_a_im'
+Error 0093: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/cadd/realign_a_re'
+Error 0094: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/cadd/realign_b_im'
+Error 0095: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/cadd/realign_b_re'
+Error 0096: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/csub/realign_a_im'
+Error 0097: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/csub/realign_a_re'
+Error 0098: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/csub/realign_b_im'
+Error 0099: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/csub/realign_b_re'
+Error 0100: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/sync_delay'
+Error 0101: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/cadd/realign_a_im'
+Error 0102: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/cadd/realign_a_re'
+Error 0103: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/cadd/realign_b_im'
+Error 0104: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/cadd/realign_b_re'
+Error 0105: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/csub/realign_a_im'
+Error 0106: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/csub/realign_a_re'
+Error 0107: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/csub/realign_b_im'
+Error 0108: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/csub/realign_b_re'
+Error 0109: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/sync_delay'
+Error 0110: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/cadd/realign_a_im'
+Error 0111: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/cadd/realign_a_re'
+Error 0112: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/cadd/realign_b_im'
+Error 0113: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/cadd/realign_b_re'
+Error 0114: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/csub/realign_a_im'
+Error 0115: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/csub/realign_a_re'
+Error 0116: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/csub/realign_b_im'
+Error 0117: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/csub/realign_b_re'
+Error 0118: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/sync_delay'
+Error 0119: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/cadd/realign_a_im'
+Error 0120: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/cadd/realign_a_re'
+Error 0121: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/cadd/realign_b_im'
+Error 0122: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/cadd/realign_b_re'
+Error 0123: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/csub/realign_a_im'
+Error 0124: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/csub/realign_a_re'
+Error 0125: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/csub/realign_b_im'
+Error 0126: Undriven input port
+     Block: 'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/csub/realign_b_re'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/sync_delay'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/cadd/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/cadd/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/cadd/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/cadd/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/csub/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/csub/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/csub/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/csub/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_9/butterfly_direct/sync_delay'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/cadd/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/cadd/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/cadd/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/cadd/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/csub/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/csub/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/csub/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/csub/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_10/butterfly_direct/sync_delay'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/cadd/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/cadd/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/cadd/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/cadd/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/csub/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/csub/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/csub/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/csub/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_11/butterfly_direct/sync_delay'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/cadd/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/cadd/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/cadd/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/cadd/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/csub/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/csub/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/csub/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/csub/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_12/butterfly_direct/sync_delay'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/cadd/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/cadd/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/cadd/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/cadd/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/csub/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/csub/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/csub/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/csub/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_0/sync_delay'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/cadd/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/cadd/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/cadd/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/cadd/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/csub/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/csub/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/csub/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/csub/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly1_1/sync_delay'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/cadd/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/cadd/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/cadd/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/cadd/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/csub/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/csub/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/csub/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/csub/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_0/sync_delay'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/cadd/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/cadd/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/cadd/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/cadd/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/csub/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/csub/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/csub/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/csub/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_direct/butterfly2_1/sync_delay'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/cadd/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/cadd/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/cadd/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/cadd/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/csub/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/csub/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/csub/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/csub/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_3/butterfly_direct/sync_delay'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/cadd/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/cadd/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/cadd/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/cadd/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/csub/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/csub/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/csub/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/csub/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_4/butterfly_direct/sync_delay'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/cadd/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/cadd/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/cadd/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/cadd/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/csub/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/csub/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/csub/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/csub/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_5/butterfly_direct/sync_delay'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/cadd/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/cadd/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/cadd/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/cadd/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/csub/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/csub/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/csub/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/csub/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_6/butterfly_direct/sync_delay'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/cadd/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/cadd/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/cadd/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/cadd/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/csub/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/csub/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/csub/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/csub/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_7/butterfly_direct/sync_delay'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/cadd/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/cadd/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/cadd/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/cadd/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/csub/realign_a_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/csub/realign_a_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/csub/realign_b_im'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'xb_fft_16k_core/fft_wideband_real1/fft_biplex_real_4x0/biplex_core/fft_stage_8/butterfly_direct/csub/realign_b_re'
+
+Details:
+The input ports on this block must be driven by other Xilinx blocks
+--------------------------------------------------------------------------------
