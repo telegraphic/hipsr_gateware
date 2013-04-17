@@ -8,6 +8,7 @@ nohup.out
 *.pkl
 *.h5
 *.hdf
+icon.gif
 
 # ISE crap - files #
 ####################
