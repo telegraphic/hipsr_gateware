@@ -41,6 +41,16 @@ hispec_8192_v2_gpio_a_oe_type         = 'xps_gpio';
 hispec_8192_v2_gpio_a_oe_param        = '';
 hispec_8192_v2_gpio_a_oe_ip_name      = 'gpio_simulink2ext';
 
+% hispec_8192_v2/gpio_a_sma
+hispec_8192_v2_gpio_a_sma_type         = 'xps_gpio';
+hispec_8192_v2_gpio_a_sma_param        = '';
+hispec_8192_v2_gpio_a_sma_ip_name      = 'gpio_simulink2ext';
+
+% hispec_8192_v2/gpio_a_sma2
+hispec_8192_v2_gpio_a_sma2_type         = 'xps_gpio';
+hispec_8192_v2_gpio_a_sma2_param        = '';
+hispec_8192_v2_gpio_a_sma2_ip_name      = 'gpio_simulink2ext';
+
 % hispec_8192_v2/master_reset
 hispec_8192_v2_master_reset_type         = 'xps_sw_reg';
 hispec_8192_v2_master_reset_param        = 'in';
@@ -216,61 +226,61 @@ hispec_8192_v2_o_pps_cnt_ip_name      = 'opb_register_simulink2ppc';
 hispec_8192_v2_o_pps_cnt_addr_start   = hex2dec('01008500');
 hispec_8192_v2_o_pps_cnt_addr_end     = hex2dec('010085FF');
 
+% hispec_8192_v2/o_sq_wav_per_sec
+hispec_8192_v2_o_sq_wav_per_sec_type         = 'xps_sw_reg';
+hispec_8192_v2_o_sq_wav_per_sec_param        = 'out';
+hispec_8192_v2_o_sq_wav_per_sec_ip_name      = 'opb_register_simulink2ppc';
+hispec_8192_v2_o_sq_wav_per_sec_addr_start   = hex2dec('01008600');
+hispec_8192_v2_o_sq_wav_per_sec_addr_end     = hex2dec('010086FF');
+
 % hispec_8192_v2/postquant_xx/max
 hispec_8192_v2_postquant_xx_max_type         = 'xps_sw_reg';
 hispec_8192_v2_postquant_xx_max_param        = 'out';
 hispec_8192_v2_postquant_xx_max_ip_name      = 'opb_register_simulink2ppc';
-hispec_8192_v2_postquant_xx_max_addr_start   = hex2dec('01008600');
-hispec_8192_v2_postquant_xx_max_addr_end     = hex2dec('010086FF');
+hispec_8192_v2_postquant_xx_max_addr_start   = hex2dec('01008700');
+hispec_8192_v2_postquant_xx_max_addr_end     = hex2dec('010087FF');
 
 % hispec_8192_v2/postquant_yy/max
 hispec_8192_v2_postquant_yy_max_type         = 'xps_sw_reg';
 hispec_8192_v2_postquant_yy_max_param        = 'out';
 hispec_8192_v2_postquant_yy_max_ip_name      = 'opb_register_simulink2ppc';
-hispec_8192_v2_postquant_yy_max_addr_start   = hex2dec('01008700');
-hispec_8192_v2_postquant_yy_max_addr_end     = hex2dec('010087FF');
+hispec_8192_v2_postquant_yy_max_addr_start   = hex2dec('01008800');
+hispec_8192_v2_postquant_yy_max_addr_end     = hex2dec('010088FF');
 
 % hispec_8192_v2/prequant_xx/max
 hispec_8192_v2_prequant_xx_max_type         = 'xps_sw_reg';
 hispec_8192_v2_prequant_xx_max_param        = 'out';
 hispec_8192_v2_prequant_xx_max_ip_name      = 'opb_register_simulink2ppc';
-hispec_8192_v2_prequant_xx_max_addr_start   = hex2dec('01008800');
-hispec_8192_v2_prequant_xx_max_addr_end     = hex2dec('010088FF');
+hispec_8192_v2_prequant_xx_max_addr_start   = hex2dec('01080000');
+hispec_8192_v2_prequant_xx_max_addr_end     = hex2dec('010800FF');
 
 % hispec_8192_v2/prequant_yy/max
 hispec_8192_v2_prequant_yy_max_type         = 'xps_sw_reg';
 hispec_8192_v2_prequant_yy_max_param        = 'out';
 hispec_8192_v2_prequant_yy_max_ip_name      = 'opb_register_simulink2ppc';
-hispec_8192_v2_prequant_yy_max_addr_start   = hex2dec('01080000');
-hispec_8192_v2_prequant_yy_max_addr_end     = hex2dec('010800FF');
+hispec_8192_v2_prequant_yy_max_addr_start   = hex2dec('01080100');
+hispec_8192_v2_prequant_yy_max_addr_end     = hex2dec('010801FF');
 
 % hispec_8192_v2/quant/xx_gain
 hispec_8192_v2_quant_xx_gain_type         = 'xps_sw_reg';
 hispec_8192_v2_quant_xx_gain_param        = 'in';
 hispec_8192_v2_quant_xx_gain_ip_name      = 'opb_register_ppc2simulink';
-hispec_8192_v2_quant_xx_gain_addr_start   = hex2dec('01080100');
-hispec_8192_v2_quant_xx_gain_addr_end     = hex2dec('010801FF');
+hispec_8192_v2_quant_xx_gain_addr_start   = hex2dec('01080200');
+hispec_8192_v2_quant_xx_gain_addr_end     = hex2dec('010802FF');
 
 % hispec_8192_v2/quant/xy_gain
 hispec_8192_v2_quant_xy_gain_type         = 'xps_sw_reg';
 hispec_8192_v2_quant_xy_gain_param        = 'in';
 hispec_8192_v2_quant_xy_gain_ip_name      = 'opb_register_ppc2simulink';
-hispec_8192_v2_quant_xy_gain_addr_start   = hex2dec('01080200');
-hispec_8192_v2_quant_xy_gain_addr_end     = hex2dec('010802FF');
+hispec_8192_v2_quant_xy_gain_addr_start   = hex2dec('01080300');
+hispec_8192_v2_quant_xy_gain_addr_end     = hex2dec('010803FF');
 
 % hispec_8192_v2/quant/yy_gain
 hispec_8192_v2_quant_yy_gain_type         = 'xps_sw_reg';
 hispec_8192_v2_quant_yy_gain_param        = 'in';
 hispec_8192_v2_quant_yy_gain_ip_name      = 'opb_register_ppc2simulink';
-hispec_8192_v2_quant_yy_gain_addr_start   = hex2dec('01080300');
-hispec_8192_v2_quant_yy_gain_addr_end     = hex2dec('010803FF');
-
-% hispec_8192_v2/reg_output_bitselect
-hispec_8192_v2_reg_output_bitselect_type         = 'xps_sw_reg';
-hispec_8192_v2_reg_output_bitselect_param        = 'in';
-hispec_8192_v2_reg_output_bitselect_ip_name      = 'opb_register_ppc2simulink';
-hispec_8192_v2_reg_output_bitselect_addr_start   = hex2dec('01080400');
-hispec_8192_v2_reg_output_bitselect_addr_end     = hex2dec('010804FF');
+hispec_8192_v2_quant_yy_gain_addr_start   = hex2dec('01080400');
+hispec_8192_v2_quant_yy_gain_addr_end     = hex2dec('010804FF');
 
 % hispec_8192_v2/snap/im_xy0/addr
 hispec_8192_v2_snap_im_xy0_addr_type         = 'xps_sw_reg';
