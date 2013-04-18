@@ -12,6 +12,7 @@ icon.gif
 
 # ISE crap - files #
 ####################
+*.bit
 *.autosave
 *.tcl
 *.do
@@ -38,6 +39,8 @@ blockCoreMap
 filter.filter
 commandLines
 term49094
+*error.log
+*sysgen.log
 
 # ISE Crap - folders #
 ######################
@@ -47,5 +50,6 @@ sysgen
 synth_model
 _xmsgs
 XPS_ROACH_BASE
+XPS_ROACH_base
 
 
