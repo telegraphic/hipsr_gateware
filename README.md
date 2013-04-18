@@ -5,12 +5,14 @@ and radio-astronomy specific gateware libraries from the CASPER collaboration.
 
 ###adc_to_10gbe
 
-Packetizes 400 MHz raw ADC samples and sends data over 10GbE. 
+Packetizes 400 MHz raw ADC samples and sends data over 10GbE. In use with the CASPSR project.
 
 
 ###hispec_8192
 
-A 400 MHz, 8192-channel PFB spectrometer (4-tap, Hamming window).
+A 400 MHz, 8192-channel PFB spectrometer (4-tap, Hamming window). Computes auto- and cross-pol
+correlations, so stokes parameters can be formed. Features noise diode control via GPIO for
+Noise Adding Radiometer calibration. 
 
 ###hispec_zoom
 
