@@ -9,6 +9,13 @@ zoom_adc_single_pol_acc_len_ip_name      = 'opb_register_ppc2simulink';
 zoom_adc_single_pol_acc_len_addr_start   = hex2dec('01000000');
 zoom_adc_single_pol_acc_len_addr_end     = hex2dec('010000FF');
 
+% zoom_adc_single_pol/acc_len_test
+zoom_adc_single_pol_acc_len_test_type         = 'xps_sw_reg';
+zoom_adc_single_pol_acc_len_test_param        = 'in';
+zoom_adc_single_pol_acc_len_test_ip_name      = 'opb_register_ppc2simulink';
+zoom_adc_single_pol_acc_len_test_addr_start   = hex2dec('01000100');
+zoom_adc_single_pol_acc_len_test_addr_end     = hex2dec('010001FF');
+
 % zoom_adc_single_pol/adc0
 zoom_adc_single_pol_adc0_type         = 'xps_adc';
 zoom_adc_single_pol_adc0_param        = 'adc = adc0 / interleave = off';
@@ -18,22 +25,22 @@ zoom_adc_single_pol_adc0_ip_name      = 'adc_interface';
 zoom_adc_single_pol_dest_ip_type         = 'xps_sw_reg';
 zoom_adc_single_pol_dest_ip_param        = 'in';
 zoom_adc_single_pol_dest_ip_ip_name      = 'opb_register_ppc2simulink';
-zoom_adc_single_pol_dest_ip_addr_start   = hex2dec('01000100');
-zoom_adc_single_pol_dest_ip_addr_end     = hex2dec('010001FF');
+zoom_adc_single_pol_dest_ip_addr_start   = hex2dec('01000200');
+zoom_adc_single_pol_dest_ip_addr_end     = hex2dec('010002FF');
 
 % zoom_adc_single_pol/dest_port
 zoom_adc_single_pol_dest_port_type         = 'xps_sw_reg';
 zoom_adc_single_pol_dest_port_param        = 'in';
 zoom_adc_single_pol_dest_port_ip_name      = 'opb_register_ppc2simulink';
-zoom_adc_single_pol_dest_port_addr_start   = hex2dec('01000200');
-zoom_adc_single_pol_dest_port_addr_end     = hex2dec('010002FF');
+zoom_adc_single_pol_dest_port_addr_start   = hex2dec('01000300');
+zoom_adc_single_pol_dest_port_addr_end     = hex2dec('010003FF');
 
 % zoom_adc_single_pol/fft_shift
 zoom_adc_single_pol_fft_shift_type         = 'xps_sw_reg';
 zoom_adc_single_pol_fft_shift_param        = 'in';
 zoom_adc_single_pol_fft_shift_ip_name      = 'opb_register_ppc2simulink';
-zoom_adc_single_pol_fft_shift_addr_start   = hex2dec('01000300');
-zoom_adc_single_pol_fft_shift_addr_end     = hex2dec('010003FF');
+zoom_adc_single_pol_fft_shift_addr_start   = hex2dec('01000400');
+zoom_adc_single_pol_fft_shift_addr_end     = hex2dec('010004FF');
 
 % zoom_adc_single_pol/gbe0
 zoom_adc_single_pol_gbe0_type         = 'xps_tengbe_v2';
@@ -83,6 +90,16 @@ zoom_adc_single_pol_gbe0_tx_cnt_param        = 'out';
 zoom_adc_single_pol_gbe0_tx_cnt_ip_name      = 'opb_register_simulink2ppc';
 zoom_adc_single_pol_gbe0_tx_cnt_addr_start   = hex2dec('01008500');
 zoom_adc_single_pol_gbe0_tx_cnt_addr_end     = hex2dec('010085FF');
+
+% zoom_adc_single_pol/gpio_a_led0
+zoom_adc_single_pol_gpio_a_led0_type         = 'xps_gpio';
+zoom_adc_single_pol_gpio_a_led0_param        = '';
+zoom_adc_single_pol_gpio_a_led0_ip_name      = 'gpio_simulink2ext';
+
+% zoom_adc_single_pol/gpio_a_oe
+zoom_adc_single_pol_gpio_a_oe_type         = 'xps_gpio';
+zoom_adc_single_pol_gpio_a_oe_param        = '';
+zoom_adc_single_pol_gpio_a_oe_ip_name      = 'gpio_simulink2ext';
 
 % zoom_adc_single_pol/led0_gbe0_overflow
 zoom_adc_single_pol_led0_gbe0_overflow_type         = 'xps_gpio';
@@ -150,66 +167,119 @@ zoom_adc_single_pol_quant_u_xx_gain_ip_name      = 'opb_register_ppc2simulink';
 zoom_adc_single_pol_quant_u_xx_gain_addr_start   = hex2dec('01008D00');
 zoom_adc_single_pol_quant_u_xx_gain_addr_end     = hex2dec('01008DFF');
 
+% zoom_adc_single_pol/quant_u/yy_gain
+zoom_adc_single_pol_quant_u_yy_gain_type         = 'xps_sw_reg';
+zoom_adc_single_pol_quant_u_yy_gain_param        = 'in';
+zoom_adc_single_pol_quant_u_yy_gain_ip_name      = 'opb_register_ppc2simulink';
+zoom_adc_single_pol_quant_u_yy_gain_addr_start   = hex2dec('01008E00');
+zoom_adc_single_pol_quant_u_yy_gain_addr_end     = hex2dec('01008EFF');
+
 % zoom_adc_single_pol/rst
 zoom_adc_single_pol_rst_type         = 'xps_sw_reg';
 zoom_adc_single_pol_rst_param        = 'in';
 zoom_adc_single_pol_rst_ip_name      = 'opb_register_ppc2simulink';
-zoom_adc_single_pol_rst_addr_start   = hex2dec('01008E00');
-zoom_adc_single_pol_rst_addr_end     = hex2dec('01008EFF');
+zoom_adc_single_pol_rst_addr_start   = hex2dec('01008F00');
+zoom_adc_single_pol_rst_addr_end     = hex2dec('01008FFF');
 
 % zoom_adc_single_pol/snap_quant_s/addr
 zoom_adc_single_pol_snap_quant_s_addr_type         = 'xps_sw_reg';
 zoom_adc_single_pol_snap_quant_s_addr_param        = 'out';
 zoom_adc_single_pol_snap_quant_s_addr_ip_name      = 'opb_register_simulink2ppc';
-zoom_adc_single_pol_snap_quant_s_addr_addr_start   = hex2dec('01008F00');
-zoom_adc_single_pol_snap_quant_s_addr_addr_end     = hex2dec('01008FFF');
+zoom_adc_single_pol_snap_quant_s_addr_addr_start   = hex2dec('01009000');
+zoom_adc_single_pol_snap_quant_s_addr_addr_end     = hex2dec('010090FF');
 
 % zoom_adc_single_pol/snap_quant_s/bram
 zoom_adc_single_pol_snap_quant_s_bram_type         = 'xps_bram';
 zoom_adc_single_pol_snap_quant_s_bram_param        = '1024';
 zoom_adc_single_pol_snap_quant_s_bram_ip_name      = 'bram_if';
-zoom_adc_single_pol_snap_quant_s_bram_addr_start   = hex2dec('01009000');
-zoom_adc_single_pol_snap_quant_s_bram_addr_end     = hex2dec('01009FFF');
+zoom_adc_single_pol_snap_quant_s_bram_addr_start   = hex2dec('0100A000');
+zoom_adc_single_pol_snap_quant_s_bram_addr_end     = hex2dec('0100AFFF');
 
 % zoom_adc_single_pol/snap_quant_s/ctrl
 zoom_adc_single_pol_snap_quant_s_ctrl_type         = 'xps_sw_reg';
 zoom_adc_single_pol_snap_quant_s_ctrl_param        = 'in';
 zoom_adc_single_pol_snap_quant_s_ctrl_ip_name      = 'opb_register_ppc2simulink';
-zoom_adc_single_pol_snap_quant_s_ctrl_addr_start   = hex2dec('0100A000');
-zoom_adc_single_pol_snap_quant_s_ctrl_addr_end     = hex2dec('0100A0FF');
+zoom_adc_single_pol_snap_quant_s_ctrl_addr_start   = hex2dec('0100B000');
+zoom_adc_single_pol_snap_quant_s_ctrl_addr_end     = hex2dec('0100B0FF');
 
 % zoom_adc_single_pol/snap_quant_u/addr
 zoom_adc_single_pol_snap_quant_u_addr_type         = 'xps_sw_reg';
 zoom_adc_single_pol_snap_quant_u_addr_param        = 'out';
 zoom_adc_single_pol_snap_quant_u_addr_ip_name      = 'opb_register_simulink2ppc';
-zoom_adc_single_pol_snap_quant_u_addr_addr_start   = hex2dec('0100A100');
-zoom_adc_single_pol_snap_quant_u_addr_addr_end     = hex2dec('0100A1FF');
+zoom_adc_single_pol_snap_quant_u_addr_addr_start   = hex2dec('0100B100');
+zoom_adc_single_pol_snap_quant_u_addr_addr_end     = hex2dec('0100B1FF');
 
 % zoom_adc_single_pol/snap_quant_u/bram
 zoom_adc_single_pol_snap_quant_u_bram_type         = 'xps_bram';
-zoom_adc_single_pol_snap_quant_u_bram_param        = '1024';
+zoom_adc_single_pol_snap_quant_u_bram_param        = '2048';
 zoom_adc_single_pol_snap_quant_u_bram_ip_name      = 'bram_if';
-zoom_adc_single_pol_snap_quant_u_bram_addr_start   = hex2dec('0100B000');
-zoom_adc_single_pol_snap_quant_u_bram_addr_end     = hex2dec('0100BFFF');
+zoom_adc_single_pol_snap_quant_u_bram_addr_start   = hex2dec('0100C000');
+zoom_adc_single_pol_snap_quant_u_bram_addr_end     = hex2dec('0100DFFF');
 
 % zoom_adc_single_pol/snap_quant_u/ctrl
 zoom_adc_single_pol_snap_quant_u_ctrl_type         = 'xps_sw_reg';
 zoom_adc_single_pol_snap_quant_u_ctrl_param        = 'in';
 zoom_adc_single_pol_snap_quant_u_ctrl_ip_name      = 'opb_register_ppc2simulink';
-zoom_adc_single_pol_snap_quant_u_ctrl_addr_start   = hex2dec('0100C000');
-zoom_adc_single_pol_snap_quant_u_ctrl_addr_end     = hex2dec('0100C0FF');
+zoom_adc_single_pol_snap_quant_u_ctrl_addr_start   = hex2dec('0100E000');
+zoom_adc_single_pol_snap_quant_u_ctrl_addr_end     = hex2dec('0100E0FF');
+
+% zoom_adc_single_pol/snap_x_s/addr
+zoom_adc_single_pol_snap_x_s_addr_type         = 'xps_sw_reg';
+zoom_adc_single_pol_snap_x_s_addr_param        = 'out';
+zoom_adc_single_pol_snap_x_s_addr_ip_name      = 'opb_register_simulink2ppc';
+zoom_adc_single_pol_snap_x_s_addr_addr_start   = hex2dec('0100E100');
+zoom_adc_single_pol_snap_x_s_addr_addr_end     = hex2dec('0100E1FF');
+
+% zoom_adc_single_pol/snap_x_s/bram
+zoom_adc_single_pol_snap_x_s_bram_type         = 'xps_bram';
+zoom_adc_single_pol_snap_x_s_bram_param        = '1024';
+zoom_adc_single_pol_snap_x_s_bram_ip_name      = 'bram_if';
+zoom_adc_single_pol_snap_x_s_bram_addr_start   = hex2dec('0100F000');
+zoom_adc_single_pol_snap_x_s_bram_addr_end     = hex2dec('0100FFFF');
+
+% zoom_adc_single_pol/snap_x_s/ctrl
+zoom_adc_single_pol_snap_x_s_ctrl_type         = 'xps_sw_reg';
+zoom_adc_single_pol_snap_x_s_ctrl_param        = 'in';
+zoom_adc_single_pol_snap_x_s_ctrl_ip_name      = 'opb_register_ppc2simulink';
+zoom_adc_single_pol_snap_x_s_ctrl_addr_start   = hex2dec('01080000');
+zoom_adc_single_pol_snap_x_s_ctrl_addr_end     = hex2dec('010800FF');
+
+% zoom_adc_single_pol/snap_x_u/addr
+zoom_adc_single_pol_snap_x_u_addr_type         = 'xps_sw_reg';
+zoom_adc_single_pol_snap_x_u_addr_param        = 'out';
+zoom_adc_single_pol_snap_x_u_addr_ip_name      = 'opb_register_simulink2ppc';
+zoom_adc_single_pol_snap_x_u_addr_addr_start   = hex2dec('01080100');
+zoom_adc_single_pol_snap_x_u_addr_addr_end     = hex2dec('010801FF');
+
+% zoom_adc_single_pol/snap_x_u/bram
+zoom_adc_single_pol_snap_x_u_bram_type         = 'xps_bram';
+zoom_adc_single_pol_snap_x_u_bram_param        = '1024';
+zoom_adc_single_pol_snap_x_u_bram_ip_name      = 'bram_if';
+zoom_adc_single_pol_snap_x_u_bram_addr_start   = hex2dec('01081000');
+zoom_adc_single_pol_snap_x_u_bram_addr_end     = hex2dec('01081FFF');
+
+% zoom_adc_single_pol/snap_x_u/ctrl
+zoom_adc_single_pol_snap_x_u_ctrl_type         = 'xps_sw_reg';
+zoom_adc_single_pol_snap_x_u_ctrl_param        = 'in';
+zoom_adc_single_pol_snap_x_u_ctrl_ip_name      = 'opb_register_ppc2simulink';
+zoom_adc_single_pol_snap_x_u_ctrl_addr_start   = hex2dec('01082000');
+zoom_adc_single_pol_snap_x_u_ctrl_addr_end     = hex2dec('010820FF');
 
 % zoom_adc_single_pol/sync/manual_arm
 zoom_adc_single_pol_sync_manual_arm_type         = 'xps_sw_reg';
 zoom_adc_single_pol_sync_manual_arm_param        = 'in';
 zoom_adc_single_pol_sync_manual_arm_ip_name      = 'opb_register_ppc2simulink';
-zoom_adc_single_pol_sync_manual_arm_addr_start   = hex2dec('0100C100');
-zoom_adc_single_pol_sync_manual_arm_addr_end     = hex2dec('0100C1FF');
+zoom_adc_single_pol_sync_manual_arm_addr_start   = hex2dec('01082100');
+zoom_adc_single_pol_sync_manual_arm_addr_end     = hex2dec('010821FF');
 
 % zoom_adc_single_pol/sync/pps/arm
 zoom_adc_single_pol_sync_pps_arm_type         = 'xps_sw_reg';
 zoom_adc_single_pol_sync_pps_arm_param        = 'in';
 zoom_adc_single_pol_sync_pps_arm_ip_name      = 'opb_register_ppc2simulink';
-zoom_adc_single_pol_sync_pps_arm_addr_start   = hex2dec('0100C200');
-zoom_adc_single_pol_sync_pps_arm_addr_end     = hex2dec('0100C2FF');
+zoom_adc_single_pol_sync_pps_arm_addr_start   = hex2dec('01082200');
+zoom_adc_single_pol_sync_pps_arm_addr_end     = hex2dec('010822FF');
+
+% OPB to OPB bridge added at 0x1080000
+OPB_to_OPB_bridge_added_at_0x1080000_type         = 'xps_opb2opb';
+OPB_to_OPB_bridge_added_at_0x1080000_param        = '';
 
